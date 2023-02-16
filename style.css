@@ -6,6 +6,11 @@
 
 body{
     margin: 0;
+    background-image: url(images/back.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 h1{
@@ -27,7 +32,6 @@ a{
 [class*="col-"]{
     float: left;
     padding: 10px;
-    width: 100%;
 }
 
 /* for mobile  */
@@ -39,9 +43,9 @@ a{
 /* navbar design starts here  */
 
 .navbar{
-    background-color: #58b9c0;
+    background: transparent;
     padding: 12% 7%;
-
+    padding-bottom: 80px;
     text-align: center;
 }
 
@@ -53,6 +57,10 @@ a{
     color: white;
     margin: 0;
     padding-top: 10px;
+    background-color: #58B9C0;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
 }
 
 .navbar .menu{
@@ -70,6 +78,7 @@ a{
 
 .menu a:hover{
     background-color: gray;
+    transform: scale(1.1);
 }
 
 .cont{
@@ -81,9 +90,10 @@ a{
 .more{
     display: none;
     position: absolute;
-    top: 55px;
-    left: 38%;
+    top: 50px;
+    width: 100%;
     background-color: aqua;
+    background: transparent;
     border-radius: 5px;
 }
 .more a{
@@ -92,12 +102,15 @@ a{
     padding: 5px;
     color: black;
     background-color: tomato;
+    
+    border: 3px solid white;
 }
 .cont:hover .more{
     display: block;
-
 }
-
+.cont:hover .more a{
+    color: white;
+}
 
 .navbar::after{
     content: '';
@@ -108,6 +121,8 @@ a{
 
 .profile{
     padding: 130px 10px;
+    
+
     position: relative;
     text-align: center;
 }
@@ -126,13 +141,22 @@ a{
     font-family: 'Satisfy', cursive;
     font-size: 3rem;
     margin: 0 20px;
+    background-color: rgb(255, 217, 0, 0.7);
+    margin-bottom: 20px;
+    border-radius: 30px;
+    padding: 20px;
+    display: inline-block;
 }
 
 .profile-desc p{
-    color: gray;
-    margin: 0 auto 20px auto;
+    color: rgb(0, 0, 0);
+    margin: 20px auto 20px auto;
     text-align: center;
     width: 90%;
+    background-color: rgba(0, 255, 179, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bold;
 }
 
 
@@ -160,9 +184,9 @@ a{
 
 
 .about-me{
-    background-color: #39a4ac;
+    background-color: #89f070;
     padding: 1% 7%;
-    color: white;
+    color: rgb(109, 0, 67);
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
@@ -180,7 +204,13 @@ a{
 
 .about-me a{
     font-size: 1.2rem;
+    color: rgb(192, 56, 255);
 }
+.about-me a:hover{
+    font-size: 1.2rem;
+    text-decoration: underline;
+}
+
 
 /*
 .cv-button{
@@ -207,32 +237,41 @@ a{
 /* about me design ends here  */
 
 /* card design  start*/
-.card_section{
-    padding: 1% 0%;
-    
+.card_sec{
+    padding: 2% 2%;
+    background: transparent;
+    text-align: center;
+}
+.card_sec::after{
+    content: '';
+    display: block;
+    clear: both;
 }
 .card_body h1{
-    background-color: rgb(165, 165, 229);
+    background-color: rgb(67, 67, 80);
     margin: 0 10px;
     color: rgb(255, 255, 255);
+    border-radius: 10px;
 }
-.caed_body{
+.card_body{
     height: 100%;
 }
+.card_body li{
+    text-align: left;
+}
 .card1{
-    background-color: gray;
-    border: 5px solid white;
+    background-color: rgb(188, 131, 226);
     border-radius: 5px;
     padding: 10px;
-    transition: 1.5s;
-    margin-top: 5px;
+    transition: 1s;
+    margin: 8px 0;
     height: 700px;
     color: white;
     /* height: 700px; */
 }
 
 .card1:hover{
-    transform: scale(1.05);
+    transform: scale(1.03);
 }
 .card1 .imag{
     height: 30%;
@@ -447,7 +486,8 @@ a{
 }
 
 .footer-menu a:hover{
-    color: gray;
+    color: tomato;
+    transform: scale(1.1);
 }
 
 .footer::after{
