@@ -14,9 +14,16 @@
 
 /* navbar design starts here  */
 
-.navba .logo{
+.navbar .logo{
     text-align: left;
 }
+.navbar h1{
+    color: white;
+    margin: 0;
+    padding-top: 10px;
+    background-color: #58B9C0;
+}
+
 
 .heading h1{
     text-align: right;
@@ -39,10 +46,14 @@
     margin: 5px 0;
     background-color: transparent;
 }
+.cont .contact{
+    width: 100%;
+}
 .more{
     top: 40px;
-    left: 8%;
+    width: 100%;
 }
+
 .more a{
     display: block;
     margin: 5px;
@@ -64,7 +75,7 @@
 }
 
 .profile-desc p{
-    color: gray;
+    color: rgb(0, 0, 0);
     margin: 0 auto;
     width: 50%;
     text-align: center;
@@ -91,10 +102,15 @@
 .aboutme-image{
     margin-top: 100px;
 }
-
+.about-me{
+    position: relative;
+}
 .aboutme-image img{
     height: 270px;
     width: 250px;
+    position: absolute;
+    left: 15% ;
+    top: 25%;
 }
 
 .aboutme-desc p{
@@ -105,9 +121,18 @@
     padding: 1% 5%;
 }
 /* professional-experience ends here */
-
-
+.card_sec{
+    display: flex;
+    text-align: center;
+}
+.card1{
+    margin: 0 1%;
+}
+.card1:hover{
+    transform: scale(1.05);
+}
 /* achievement-contact starts here  */
+
 .achievement{
     padding-right: 50px;
 }
@@ -139,5 +164,9 @@
     display: inline;
     margin: 10px;
     
+}
+.footer-menu a:hover{
+    color: tomato;
+    transform: scale(1.1);
 }
 /* footer ends here  */
