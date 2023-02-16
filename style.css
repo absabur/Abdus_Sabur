@@ -74,11 +74,12 @@ a{
     border-radius: 10px;
     margin: 7px 0px;
     padding: 10px;
+    transition: 0.5s;
 }
 
 .menu a:hover{
     background-color: gray;
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .cont{
