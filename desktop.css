@@ -21,7 +21,7 @@
     color: white;
     margin: 0;
     padding-top: 10px;
-    background-color: #58B9C0;
+    background-color: rgba(88, 185, 192, 0);
 }
 
 
@@ -30,7 +30,7 @@
 }
 
 .navbar{
-    background-color: #58b9c0;
+    background-color: rgba(88, 185, 192, 0.9);
     padding: 3% 7%;
 
     text-align: center;
