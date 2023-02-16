@@ -57,7 +57,7 @@ a{
     color: white;
     margin: 0;
     padding-top: 10px;
-    background-color: #58B9C0;
+    background-color: rgba(57, 164, 172, 0.9);
     padding: 20px;
     margin-bottom: 10px;
     border-radius: 20px;
@@ -154,7 +154,7 @@ a{
     margin: 20px auto 20px auto;
     text-align: center;
     width: 90%;
-    background-color: rgba(0, 255, 179, 0.6);
+    background-color: rgba(0, 255, 179, 0.7);
     padding: 20px;
     border-radius: 10px;
     font-weight: bold;
@@ -185,7 +185,7 @@ a{
 
 
 .about-me{
-    background-color: #89f070;
+    background-color: rgba(137, 240, 112, 0.9);
     padding: 1% 7%;
     color: rgb(109, 0, 67);
     text-align: center;
@@ -259,7 +259,7 @@ a{
     text-align: left;
 }
 .card1{
-    background-color: rgb(188, 131, 226);
+    background-color: rgba(188, 131, 226, 0.9);
     border-radius: 5px;
     padding: 10px;
     transition: 1s;
@@ -412,7 +412,7 @@ a{
 /* card design  end*/
 .achievemnet-contact{
     padding: 1% 7%;
-    background-color: #39a4ac;
+    background-color: rgba(57, 164, 172, 0.9);
     color: white;
 }
 
