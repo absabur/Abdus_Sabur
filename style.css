@@ -135,7 +135,7 @@ a{
 }
 
 .profile .top-weather-icon:hover{
-    transform: rotate(360deg);
+    transform: rotate(360deg) scale(0.5);
 }
 .profile-desc h1{
     font-family: 'Satisfy', cursive;
@@ -168,7 +168,7 @@ a{
 }
 
 .profile .bottom-weather-icon:hover{
-    transform: rotate(360deg);
+    transform: rotate(360deg) scale(0.5);
 }
 
 .profile::after{
