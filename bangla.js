@@ -33,5 +33,5 @@ function animation(text){
 
     setTimeout(function(){
         selectbtn.classList.remove("anim");
-    },2000);
+    },3000);
 }
