@@ -28,5 +28,5 @@ function animation(text){
 
     setTimeout(function(){
         selectbtn.classList.remove("anim");
-    },1000);
+    },2000);
 }
