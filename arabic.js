@@ -14,7 +14,7 @@ function audioPlay(text){
     for(i=0 ; i < aray.length ; i++)
     switch (text) {
         case aray[i]:
-            var audio = new Audio("arabic/"+aray[i]+".m4a");
+            var audio = new Audio("arabic1/"+aray[i]+".mp3");
             audio.play();
             break;
         
