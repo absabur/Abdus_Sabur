@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(147, 243, 83);
+    background-color: rgb(99, 253, 245);
 }
 h1{
     text-align: center;
@@ -34,8 +34,8 @@ h3{
     text-align: center;
     margin: 20px;
     border: none;
-    background-color: tomato;
-    color: aqua;
+    background-color: rgb(52, 255, 11);
+    color: rgb(0, 0, 0);
     font-size: 30px;
     border-radius: 10px;
     transition: 0.9s;
@@ -76,7 +76,7 @@ img{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: rgb(204, 59, 131);
+    background-color: rgb(255, 50, 152);
 }
 h2{
     color: white;
