@@ -3,18 +3,19 @@ for(i=0 ; i<26 ; i++){
 
         var text = this.innerHTML;
         console.log(text);
-        audioPlay(text);
+        audioMalePlay(text)
         animation(text);
     
     })
 }
-function audioPlay(text){
+
+function audioMalePlay(text){
     
     var aray = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
     for(i=0 ; i < aray.length ; i++){
         switch (text) {
             case aray[i]:
-                var audio = new Audio("audio/"+aray[i]+".m4a");
+                var audio = new Audio("audio/male/"+aray[i]+".mp3");
                 audio.play();
                 break;
             
@@ -30,5 +31,5 @@ function animation(text){
 
     setTimeout(function(){
         selectbtn.classList.remove("anim");
-    },3000);
+    },1000);
 }
