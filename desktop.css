@@ -11,8 +11,15 @@
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
-
+:root {
+    --color1: #0F3443;
+    --color2: #4FABB1;
+    --color3: #F8FFAE;
+  }
 /* navbar design starts here  */
+.bars{
+    display: none;
+}
 
 .navbar .logo{
     text-align: left;
@@ -30,7 +37,7 @@
 }
 
 .navbar{
-    background-color: rgba(88, 185, 192, 0.9);
+    background-color: var(--color2);
     padding: 3% 7%;
 
     text-align: center;
@@ -43,7 +50,7 @@
 }
 .menu a{
     padding: 5px 10px;
-    margin: 5px 0;
+    margin: 5px 2px;
     background-color: transparent;
 }
 .cont .contact{
@@ -59,7 +66,7 @@
     margin: 5px;
     padding: 5px;
     color: black;
-    background-color: tomato;
+    background-color: gray;
 }
 /* navbar design ends here  */
 /* profile design starts here  */
@@ -74,12 +81,9 @@
     width: 140px;
 }
 
-
 .profile-desc h1{
     padding: 40px;
 }
-
-
 .profile-desc p{
     color: rgb(0, 0, 0);
     margin: 0 auto;
@@ -172,7 +176,7 @@
     
 }
 .footer-menu a:hover{
-    color: tomato;
+    color: var(--color3);
     transform: scale(1.1);
 }
 /* footer ends here  */
