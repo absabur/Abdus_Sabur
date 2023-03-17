@@ -475,6 +475,9 @@ a:hover{
     display: table;
     content: '';
  }
+ .ol{
+    line-height: 40px;
+ }
 
 /* achievement-contact ends here  */
 
