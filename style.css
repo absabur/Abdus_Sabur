@@ -59,7 +59,7 @@ a:hover{
 }
 
 .navbar img{
-    border: 5px dotted black;
+    border: 5px dashed var(--color1);
     border-radius: 20px;
 }
 .navbar h1{
