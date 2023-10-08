@@ -2,6 +2,7 @@
 *{
     box-sizing: border-box;
     font-family: 'Fira Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 :root {
     --color1: #0F3443;
